@@ -55,9 +55,9 @@ Here is a list of the endpoints defined and what they do:
 - Restricted to logged in users
 - GET on /favourites endpoint, will return any dishes a user marks as a favourite
 - POST on /favourites endpoint, will add a dish to favourties list
-- PUT on /favourites endpoint, restriced and will return an error
+- PUT on /favourites endpoint, restricted and will return an error
 - DELETE on /favourites endpoint, will delete all the favourites of a specific user, note only a user can delete their own favourites
-- GET, POST, PUT, and DELETE on /favourites/:dishId does the same as above except for specific favourites, note that in this case PUT is still restriced and POST is still functional
+- GET, POST, PUT, and DELETE on /favourites/:dishId does the same as above except for specific favourites, note that in this case PUT is still restricted and POST is still functional
 
 ## Pictures
 Coming Soon!
