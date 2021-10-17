@@ -34,7 +34,7 @@ Here is a list of the endpoints defined and what they do:
 - GET, PUT, POST, DELETE on /dishes/:dishId does the same as above but for a specific dish, note that in this case POST returns an error and PUT will update a specific dish. Furthermore PUT and DELETE are restricted to admin
 - GET on /dishes/:dishId/comments endpoint, this returns the comments of a dish, anyone can perform this whether logged in or not
 - POST on /dishes/:dishId/comments endpoint, this adds a comment to the dish note only a logged in user can do this
-- PUT on /dishes/:dishId/comments endpoint, restriced and will return an error
+- PUT on /dishes/:dishId/comments endpoint, restricted and will return an error
 - DELETE on /dishes/:dishId/comments endpoint, this will delete all the comments posted by a logged in user, note a user can delete their own comments
 - GET, PUT, POST, DELETE on /dishes/:dishId/comments/:commentId does the same as above but for a specific comment, note that in this case POST returns an error and PUT will update a specific comment. Furthermore PUT and DELETE are restricted to logged in users
 
