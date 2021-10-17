@@ -15,7 +15,7 @@ Note that I have used SSL to make the https server but Postman will not recogniz
 Coming soon!
 
 ## Description
-This is a REST API server made using Node.js, Express, MongoDB, and Mongoose ODM. I used Postman to test that it was working as expected. In this server I have implemented the GET, POST, PUT, and DELETE requests accross several endpoints. I used SSL to implement an https server and also implemented Facebook OAuth as an alternate way for users to sign in.
+This is a REST API server made using Node.js, Express, MongoDB, and Mongoose ODM. I used Postman to test that it was working as expected. In this server I have implemented the GET, POST, PUT, and DELETE requests across several endpoints. I used SSL to implement an https server and also implemented Facebook OAuth as an alternate way for users to sign in.
 
 Here is a list of the endpoints defined and what they do:
 
