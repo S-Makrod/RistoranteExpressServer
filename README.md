@@ -11,9 +11,6 @@ I used Postman to test the server, so to see it in action just open Postman and 
 
 Note that I have used SSL to make the https server but Postman will not recognized it since it is a self signed certificate. Thus in Postman go to settings and disable SSL Certificate Verification.
 
-## Demo
-Coming soon!
-
 ## Description
 This is a REST API server made using Node.js, Express, MongoDB, and Mongoose ODM. I used Postman to test that it was working as expected. In this server I have implemented the GET, POST, PUT, and DELETE requests across several endpoints. I used SSL to implement a https server and also implemented Facebook OAuth as an alternate way for users to sign in.
 
@@ -58,6 +55,3 @@ Here is a list of the endpoints defined and what they do:
 - PUT on /favourites endpoint, restricted and will return an error
 - DELETE on /favourites endpoint, will delete all the favourites of a specific user, note only a user can delete their own favourites
 - GET, POST, PUT, and DELETE on /favourites/:dishId does the same as above except for specific favourites, note that in this case PUT is still restricted and POST is still functional
-
-## Pictures
-Coming Soon!
